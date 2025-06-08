@@ -1,0 +1,24 @@
+.titlecards {
+  padding: 5px 10px;
+}
+
+.card-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: none; 
+}
+
+.card-list::-webkit-scrollbar {
+  display: none; 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card img {
+  width: 300px;
+}
